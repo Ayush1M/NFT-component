@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440px;
+    text-align: center;
+    padding: 70px 0;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+.box{
+    background-color:hsl(216, 50%, 16%);
+    max-width: 20%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 20px 30px 10px hsl(212, 41%, 8%, 0.753), -20px 30px 10px hsla(212, 41%, 8%, 0.753);
+}
+
+.box1{
+    position: relative;
+}
+
+.box1 img{
+    position: relative;
+    height: 280px;
+    width: 290px;
+    border-radius: 12px;
+    cursor: pointer;  
+}
+
+.box1 #img1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.box1 #img2{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 10%;
+    width: 10%;
+    display: none;
+    padding: 128px 132px 120px 128px;
+    opacity: 0.4;
+}
+
+.box1:hover #img2{
+    display: block;
+    background-color: hsl(178, 100%, 50%);
+}
+
+
+.box2 h3{
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding-bottom: 1.2em;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.box2 h3:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+.box2 p{
+    padding-right: .5em;
+    max-width: 100%;
+    text-align: left;
+    padding-bottom: .5em;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+    padding-right: .2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.struct{
+    display: flex;
+    font-size: 15px;
+}
+
+.color h4{
+    color: hsl(178, 100%, 50%);
+    letter-spacing: 1px;
+}
+
+.struct img{
+    padding-right: .3em;
+}
+
+
+.box4{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+.box4 img{
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.box4 p{
+    padding-left: .8em;
+}
+
+.box4 span{
+    color: white;
+    cursor: pointer;
+}
+
+.box4 span:hover{
+    color: hsl(178, 100%, 50%); 
+}
+
+.box1,
+.box2{
+    padding-bottom: 1em;
+}
