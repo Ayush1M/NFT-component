@@ -4,7 +4,7 @@
 }
 
 main{
-    width: 90%;
+    width: 100%;
 }
 
 body{
@@ -20,10 +20,11 @@ body{
 
 .nft-container{
     background-color:hsl(216, 50%, 16%);
-    padding: 1.2em;
+    padding: 1.1em;
     width: 20%;
+    min-width: 300px;
     margin: 0 auto;
-    border-radius: 12px;
+    border-radius: 8px;
     box-shadow: 20px 30px 10px hsl(212, 41%, 8%, 0.753), -20px 30px 10px hsla(212, 41%, 8%, 0.753);
 }
 
@@ -34,9 +35,7 @@ body{
 .box1 img{
     position: relative;
     width: 100%;
-    max-width: 360px;
-    height: auto;
-    border-radius: 12px;
+    border-radius: 6px;
     cursor: pointer;  
 }
 
@@ -50,8 +49,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 8%;
-    height: auto;
+    max-width: 40px;
+    height: 52px;
     display: none;
     padding: 8em 8.26em 7.5em 8em;
     opacity: 0.4;
@@ -61,7 +60,6 @@ body{
     display: block;
     background-color: hsl(178, 100%, 50%);
 }
-
 
 .box2 h3{
     color: hsl(0, 0%, 100%);
@@ -118,7 +116,7 @@ body{
     display: flex;
     align-items: center;
     padding-top: 1em;
-    padding-bottom: .5em;
+    padding-bottom: .6em;
 }
 
 .box4 img{
@@ -129,6 +127,7 @@ body{
 
 .box4 p{
     padding-left: .8em;
+    font-size: .9em;
 }
 
 .box4 span{
