@@ -33,4 +33,4 @@ The goal is to learn the basics of semantic HTML5 and CSS and also very good pro
 
 
 ## Acknowledgment
-My acknowledgements goes out to Frontend mentor to have a challenge wich helped me improve my HTML and CSS skills. Also to people who provided solution to the challenge to      improve it.
+My acknowledgements goes out to Frontend mentor to have a challenge which helped me improve my HTML and CSS skills. Also to people who provided solution to the challenge to      improve it.
